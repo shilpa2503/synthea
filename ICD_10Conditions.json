@@ -1,0 +1,90 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "icd-10",
+  "meta": {
+    "lastUpdated": "2019-10-24T11:53:00+11:00",
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": ""
+  },
+  "url": "https://icd.who.int/browse10/2019/en",
+  "identifier": {
+    "system": "http://hl7.org/fhir/sid/icd-10",
+    "value": "urn:oid:2.16.840.1.113883.6.3"
+  },
+  "version": "3.0.2",
+  "name": "ICD-10 Condition codes",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "Financial Management",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.org/fhir"
+        }
+      ]
+    }
+  ],
+  "description": "This value set includes sample ICD-10 Procedure codes.",
+  "copyright": "This is an example set.",
+  "caseSensitive": true,
+  "valueSet": "https://icd.who.int/browse10/2019/en",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "A00.0",
+      "display": "Cholera due to Vibrio cholerae 01, biovar cholerae"
+    },
+	{
+      "code": "A00.1",
+      "display": "Cholera due to Vibrio cholerae 01, biovar eltor"
+    },
+	{
+      "code": "A00.9",
+      "display": "Cholera, unspecified"
+    },
+	{
+      "code": "A01",
+      "display": "Typhoid and paratyphoid fevers"
+    },
+	{
+      "code": "A01.0",
+      "display": "Typhoid fever",
+	  "definition":"Infection due to Salmonella typhi"
+    },
+	{
+      "code": "A01.1",
+      "display": "Paratyphoid fever A"
+    },
+	{
+      "code": "A01.2",
+      "display": "Paratyphoid fever B"
+    },
+	{
+      "code": "A01.3",
+      "display": "Paratyphoid fever C"
+    },
+	{
+      "code": "A01.4",
+      "display": "Paratyphoid fever, unspecified",
+	  "definition":"Infection due to Salmonella paratyphi NOS"
+    },
+	{
+      "code": "A02",
+      "display": "Other salmonella infections",
+	  "definition":"infection or foodborne intoxication due to any Salmonella species other than S. typhi and S. paratyphi"
+    },
+	{
+      "code": "A02.0",
+      "display": "Salmonella enteritis",
+	  "definition":"Salmonellosis"
+    }
+	
+  ]
+}
