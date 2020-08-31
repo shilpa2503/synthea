@@ -17,7 +17,8 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
-
+//FIT PROJECT CHANGES
+import org.hl7.fhir.r4.model.QuestionnaireResponse;
 import org.hl7.fhir.r4.model.Address;
 import org.hl7.fhir.r4.model.AllergyIntolerance;
 import org.hl7.fhir.r4.model.AllergyIntolerance.AllergyIntoleranceCategory;
@@ -109,6 +110,8 @@ import org.hl7.fhir.r4.model.PractitionerRole;
 import org.hl7.fhir.r4.model.Procedure.ProcedureStatus;
 import org.hl7.fhir.r4.model.Provenance;
 import org.hl7.fhir.r4.model.Provenance.ProvenanceAgentComponent;
+//FIT PROJECT CHANGES
+import org.hl7.fhir.r4.model.QuestionnaireResponse.QuestionnaireResponseStatus;
 import org.hl7.fhir.r4.model.Quantity;
 import org.hl7.fhir.r4.model.Reference;
 import org.hl7.fhir.r4.model.Resource;
@@ -135,6 +138,8 @@ import org.mitre.synthea.world.agents.Clinician;
 import org.mitre.synthea.world.agents.Payer;
 import org.mitre.synthea.world.agents.Person;
 import org.mitre.synthea.world.agents.Provider;
+//FIT PROJECT CHANGES
+import org.mitre.synthea.world.agents.Questionnaire;
 import org.mitre.synthea.world.concepts.Claim;
 import org.mitre.synthea.world.concepts.Costs;
 import org.mitre.synthea.world.concepts.HealthRecord;
@@ -296,6 +301,10 @@ public class FhirR4 {
 
       for (Report report : encounter.reports) {
         report(person, personEntry, bundle, encounterEntry, report);
+      }
+      //FIT PROJECT CHANGES
+      for (Questionnaire questionResponse: encounter.responses) {
+        questionnaireResponse(person, personEntry, bundle, encounterEntry, questionResponse);
       }
 
       for (CarePlan careplan : encounter.careplans) {
@@ -2651,6 +2660,30 @@ public class FhirR4 {
     mediaResource.setContent(contentResource);
 
     return newEntry(rand, bundle, mediaResource);
+  }
+  //FIT PROJECT CHANGES
+    /**
+   * Map the given Observation with attachment element to a FHIR QUestionnaire resource, and add it to the
+   * given Bundle.
+   *
+   * @param rand           Source of randomness to use when generating ids etc
+   * @param personEntry    The Entry for the Person
+   * @param bundle         Bundle to add the Media to
+   * @param encounterEntry Current Encounter entry
+   * @param response   The Observation to map to FHIR and add to the bundle
+   * @return The added Entry
+   */
+  private static BundleEntryComponent questionnaireResponse(RandomNumberGenerator rand,
+          BundleEntryComponent personEntry, Bundle bundle, BundleEntryComponent encounterEntry,
+          Questionnaire response) {
+    org.hl7.fhir.r4.model.QuestionnaireResponse questionnaireResource =
+        new org.hl7.fhir.r4.model.QuestionnaireResponse();
+
+    
+    questionnaireResource.setStatus(QuestionnaireResponseStatus.INPROGRESS);
+    questionnaireResource.setEncounter(new Reference(encounterEntry.getFullUrl()));
+    questionnaireResource.setQuestionnaire(response.getJSONData());
+    return newEntry(rand, bundle, questionnaireResource);
   }
 
   /**

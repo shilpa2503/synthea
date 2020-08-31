@@ -159,9 +159,9 @@
       "assign_to_attribute": "dermatitis",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "24079001",
-          "display": "Atopic dermatitis"
+          "system": "ICD-10",
+          "code": "L209",
+          "display": "Atopic dermatitis, unspecified"
         }
       ],
       "direct_transition": "PCP_Encounter"
@@ -172,9 +172,9 @@
       "assign_to_attribute": "dermatitis",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "40275004",
-          "display": "Contact dermatitis"
+          "system": "ICD-10",
+          "code": "L259",
+          "display": "Unspecified contact dermatitis, unspecified cause"
         }
       ],
       "direct_transition": "PCP_Encounter"

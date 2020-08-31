@@ -38,9 +38,9 @@
       "type": "ConditionOnset",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": 59621000,
-          "display": "Hypertension"
+          "system": "ICD-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
         }
       ],
       "assign_to_attribute": "hypertension_dx",

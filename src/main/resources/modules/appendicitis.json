@@ -208,9 +208,9 @@
       "target_encounter": "Appendicitis_Encounter",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "74400008",
-          "display": "Appendicitis"
+          "system": "ICD‑10",
+          "code": "K37",
+          "display": "Unspecified appendicitis"
         }
       ],
       "distributed_transition": [
@@ -237,9 +237,9 @@
       "target_encounter": "Appendicitis_Encounter",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "47693006",
-          "display": "Rupture of appendix"
+          "system": "ICD-10",
+          "code": "K3532",
+          "display": "Acute appendicitis with perforation and localized peritonitis, without abscess"
         }
       ],
       "direct_transition": "Appendicitis_Encounter",
@@ -268,9 +268,9 @@
       "target_encounter": "Appendectomy_Encounter",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "428251008",
-          "display": "History of appendectomy"
+          "system": "ICD-10",
+          "code": "Z90.49",
+          "display": "Acquired absence of other specified parts of digestive tract"
         }
       ],
       "direct_transition": "Transfer_To_Inpatient",

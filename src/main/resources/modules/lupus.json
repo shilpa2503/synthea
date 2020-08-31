@@ -76,9 +76,9 @@
       "target_encounter": "Lupus_Diagnosis",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "200936003",
-          "display": "Lupus erythematosus"
+          "system": "ICD-10",
+          "code": "L930",
+          "display": "Discoid lupus erythematosus"
         }
       ],
       "direct_transition": "Lupus_Diagnosis"

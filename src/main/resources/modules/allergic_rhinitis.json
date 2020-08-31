@@ -116,9 +116,9 @@
       "target_encounter": "Allergic_Rhinitis_Diagnosis",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "367498001",
-          "display": "Seasonal allergic rhinitis"
+          "system": "ICD-10",
+          "code": "J302",
+          "display": "Other seasonal allergic rhinitis"
         }
       ],
       "direct_transition": "Allergic_Rhinitis_Symptom1"
@@ -129,9 +129,9 @@
       "target_encounter": "Allergic_Rhinitis_Diagnosis",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "446096008",
-          "display": "Perennial allergic rhinitis"
+          "system": "ICD-10",
+          "code": "J3089",
+          "display": "Other allergic rhinitis"
         }
       ],
       "direct_transition": "Allergic_Rhinitis_Symptom1"
@@ -142,9 +142,9 @@
       "target_encounter": "Allergic_Rhinitis_Diagnosis",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "232353008",
-          "display": "Perennial allergic rhinitis with seasonal variation"
+          "system": "ICD-10",
+          "code": "J3089",
+          "display": "Other allergic rhinitis"
         }
       ],
       "direct_transition": "Allergic_Rhinitis_Symptom1"

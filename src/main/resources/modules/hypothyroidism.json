@@ -72,9 +72,9 @@
       "target_encounter": "Hypothyroidism followup encounter",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": 83664006,
-          "display": "Idiopathic atrophic hypothyroidism"
+          "system": "ICD-10",
+          "code": "E034",
+          "display": "Atrophy of thyroid (acquired)"
         }
       ],
       "direct_transition": "Hypothyroidism Encounter Workup"

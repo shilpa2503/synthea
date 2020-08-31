@@ -438,9 +438,9 @@
       "assign_to_attribute": "spinal_injury",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "1734006",
-          "display": "Fracture of the vertebral column with spinal cord injury"
+          "system": "ICD-10",
+          "code": "G9589",
+          "display": "Other specified diseases of spinal cord"
         }
       ],
       "distributed_transition": [
@@ -463,9 +463,9 @@
       "target_encounter": "ED_Visit_For_Spinal_Injury",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "698754002",
-          "display": "Chronic paralysis due to lesion of spinal cord"
+          "system": "ICD-10",
+          "code": "G959",
+          "display": "Disease of spinal cord, unspecified"
         }
       ],
       "direct_transition": "Spinal_Surgery"
@@ -476,9 +476,9 @@
       "assign_to_attribute": "spinal_injury",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "15724005",
-          "display": "Fracture of vertebral column without spinal cord injury"
+          "system": "ICD-10",
+          "code": "T148XX",
+          "display": "Other injury of unspecified body region"
         }
       ],
       "direct_transition": "Spinal_Injury_CarePlan"
@@ -593,9 +593,9 @@
       "target_encounter": "ED_Visit_For_Gunshot_Injury",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "262574004",
-          "display": "Bullet wound"
+          "system": "ICD-10",
+          "code": "W3400X",
+          "display": "Accidental discharge from unspecified firearms or gun"
         }
       ],
       "distributed_transition": [
@@ -771,9 +771,9 @@
       "assign_to_attribute": "concussion_injury",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "62106007",
-          "display": "Concussion with no loss of consciousness"
+          "system": "ICD-10",
+          "code": "S060X0",
+          "display": "Concussion without loss of consciousness"
         }
       ],
       "direct_transition": "Concussion_CarePlan"
@@ -784,9 +784,9 @@
       "assign_to_attribute": "concussion_injury",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "62564004",
-          "display": "Concussion with loss of consciousness"
+          "system": "ICD-10",
+          "code": "S060X9",
+          "display": "Concussion with loss of consciousness of unspecified duration"
         }
       ],
       "direct_transition": "Concussion_CarePlan"
@@ -797,9 +797,9 @@
       "assign_to_attribute": "concussion_injury",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "110030002",
-          "display": "Concussion injury of brain"
+          "system": "ICD-10",
+          "code": "S060X0",
+          "display": "Concussion without loss of consciousness"
         }
       ],
       "remarks": [
@@ -829,9 +829,9 @@
       ],
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "275272006",
-          "display": "Brain damage - traumatic"
+          "system": "ICD-10",
+          "code": "S069X0",
+          "display": "Unspecified intracranial injury without loss of consciousness"
         }
       ],
       "direct_transition": "Concussion_CarePlan"
@@ -929,9 +929,9 @@
       "target_encounter": "ED_Visit_For_Whiplash",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "39848009",
-          "display": "Whiplash injury to neck"
+          "system": "ICD-10",
+          "code": "S134XX",
+          "display": "Sprain of ligaments of cervical spine"
         }
       ],
       "direct_transition": "Whiplash_Injury_Prescribe_Non_Opioid"
@@ -1102,9 +1102,9 @@
       "assign_to_attribute": "broken_bone",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "58150001",
-          "display": "Fracture of clavicle"
+          "system": "ICD-10",
+          "code": "S42009",
+          "display": "Fracture of unspecified part of unspecified clavicle"
         }
       ],
       "direct_transition": "Clavicle_X_Ray"
@@ -1148,9 +1148,9 @@
       "assign_to_attribute": "broken_bone",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "65966004",
-          "display": "Fracture of forearm"
+          "system": "ICD-10",
+          "code": "S5290X",
+          "display": "Unspecified fracture of unspecified forearm"
         }
       ],
       "direct_transition": "Arm_X_Ray"
@@ -1194,9 +1194,9 @@
       "assign_to_attribute": "broken_bone",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "263102004",
-          "display": "Fracture subluxation of wrist"
+          "system": "ICD-10",
+          "code": "S6290X",
+          "display": "Unspecified fracture of unspecified wrist and hand"
         }
       ],
       "direct_transition": "Wrist_X_Ray"
@@ -1240,9 +1240,9 @@
       "assign_to_attribute": "broken_bone",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "16114001",
-          "display": "Fracture of ankle"
+          "system": "ICD-10",
+          "code": "S8290X",
+          "display": "Unspecified fracture of unspecified lower leg"
         }
       ],
       "direct_transition": "Ankle_X_Ray"
@@ -1286,9 +1286,9 @@
       "assign_to_attribute": "broken_bone",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "33737001",
-          "display": "Fracture of rib"
+          "system": "ICD-10",
+          "code": "S2239X",
+          "display": "Fracture of one rib, unspecified side"
         }
       ],
       "direct_transition": "Chest_X_Ray"
@@ -1332,9 +1332,9 @@
       "assign_to_attribute": "broken_bone",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "359817006",
-          "display": "Closed fracture of hip"
+          "system": "ICD-10",
+          "code": "S72009",
+          "display": "Fracture of unspecified part of neck of unspecified femur"
         }
       ],
       "direct_transition": "Pelvic_X_Ray"
@@ -1595,9 +1595,9 @@
       "type": "ConditionOnset",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "64859006",
-          "display": "Osteoporosis (disorder)"
+          "system": "ICD-10",
+          "code": "M810",
+          "display": "Age-related osteoporosis without current pathological fracture"
         }
       ],
       "direct_transition": "Diagnose_Fracture_Due_to_Osteoporosis"
@@ -1606,9 +1606,9 @@
       "type": "ConditionOnset",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "443165006",
-          "display": "Pathological fracture due to osteoporosis (disorder)"
+          "system": "ICD-10",
+          "code": "M8000X",
+          "display": "Age-related osteoporosis with current pathological fracture, unspecified site"
         }
       ],
       "direct_transition": "End_Broken_Bone_Encounter"
@@ -1648,9 +1648,9 @@
             "condition_type": "Active Condition",
             "codes": [
               {
-                "system": "SNOMED-CT",
-                "code": "443165006",
-                "display": "Pathological fracture due to osteoporosis (disorder)"
+                "system": "ICD-10",
+                "code": "M810",
+                "display": "Age-related osteoporosis without current pathological fracture"
               }
             ]
           },
@@ -1731,9 +1731,9 @@
       "assign_to_attribute": "burn_injury",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "403190006",
-          "display": "First degree burn"
+          "system": "ICD-10",
+          "code": "T148XX",
+          "display": "Other injury of unspecified body region"
         }
       ],
       "direct_transition": "Burn_CarePlan"
@@ -1744,9 +1744,9 @@
       "assign_to_attribute": "burn_injury",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "403191005",
-          "display": "Second degree burn"
+          "system": "ICD-10",
+          "code": "T148XX",
+          "display": "Other injury of unspecified body region"
         }
       ],
       "direct_transition": "Burn_CarePlan"
@@ -1757,9 +1757,9 @@
       "assign_to_attribute": "burn_injury",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "403192003",
-          "display": "Third degree burn"
+          "system": "ICD-10",
+          "code": "T148XX",
+          "display": "Other injury of unspecified body region"
         }
       ],
       "direct_transition": "Burn_CarePlan"
@@ -1973,9 +1973,9 @@
       "assign_to_attribute": "laceration_injury",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "284549007",
-          "display": "Laceration of hand"
+          "system": "ICD-10",
+          "code": "S61419",
+          "display": "Laceration without foreign body of unspecified hand"
         }
       ],
       "direct_transition": "Laceration_CarePlan"
@@ -1986,9 +1986,9 @@
       "assign_to_attribute": "laceration_injury",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "283371005",
-          "display": "Laceration of forearm"
+          "system": "ICD-10",
+          "code": "S51819",
+          "display": "Laceration without foreign body of unspecified forearm"
         }
       ],
       "direct_transition": "Laceration_CarePlan"
@@ -1999,9 +1999,9 @@
       "assign_to_attribute": "laceration_injury",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "283385000",
-          "display": "Laceration of thigh"
+          "system": "ICD-10",
+          "code": "S71119",
+          "display": "Laceration without foreign body, unspecified thigh"
         }
       ],
       "direct_transition": "Laceration_CarePlan"
@@ -2012,9 +2012,9 @@
       "assign_to_attribute": "laceration_injury",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "370247008",
-          "display": "Facial laceration"
+          "system": "ICD-10",
+          "code": "S0181X",
+          "display": "Laceration without foreign body of other part of head"
         }
       ],
       "direct_transition": "Laceration_CarePlan"
@@ -2025,9 +2025,9 @@
       "assign_to_attribute": "laceration_injury",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "284551006",
-          "display": "Laceration of foot"
+          "system": "ICD-10",
+          "code": "S91391",
+          "display": "Laceration without foreign body, unspecified foot"
         }
       ],
       "direct_transition": "Laceration_CarePlan"
@@ -2166,9 +2166,9 @@
       "assign_to_attribute": "sprain_injury",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "44465007",
-          "display": "Sprain of ankle"
+          "system": "ICD-10",
+          "code": "S93409",
+          "display": "Sprain of unspecified ligament of unspecified ankle"
         }
       ],
       "direct_transition": "Sprain_CarePlan"
@@ -2179,9 +2179,9 @@
       "assign_to_attribute": "sprain_injury",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "70704007",
-          "display": "Sprain of wrist"
+          "system": "ICD-10",
+          "code": "S63509",
+          "display": "Unspecified sprain of unspecified wrist"
         }
       ],
       "direct_transition": "Sprain_CarePlan"
@@ -2346,9 +2346,9 @@
       "assign_to_attribute": "knee_injury",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "444470001",
-          "display": "Injury of anterior cruciate ligament"
+          "system": "ICD-10",
+          "code": "S83519",
+          "display": "Sprain of anterior cruciate ligament of unspecified knee"
         }
       ],
       "direct_transition": "Knee_Injury_CarePlan"
@@ -2359,9 +2359,9 @@
       "assign_to_attribute": "knee_injury",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "444448004",
-          "display": "Injury of medial collateral ligament of knee"
+          "system": "ICD-10",
+          "code": "S83419",
+          "display": "Sprain of medial collateral ligament of unspecified knee"
         }
       ],
       "direct_transition": "Knee_Injury_CarePlan"
@@ -2375,9 +2375,9 @@
       ],
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "239720000",
-          "display": "Tear of meniscus of knee"
+          "system": "ICD-10",
+          "code": "S83209",
+          "display": "Unspecified tear of unspecified meniscus, current injury, unspecified knee"
         }
       ],
       "direct_transition": "Knee_Injury_CarePlan"
@@ -2388,9 +2388,9 @@
       "assign_to_attribute": "knee_injury",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "30832001",
-          "display": "Rupture of patellar tendon"
+          "system": "ICD-10",
+          "code": "M6688",
+          "display": "Spontaneous rupture of other tendons, other sites"
         }
       ],
       "direct_transition": "Knee_Injury_CarePlan"
@@ -2495,9 +2495,9 @@
       "target_encounter": "Encounter_For_Shoulder_Injury",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "307731004",
-          "display": "Injury of tendon of the rotator cuff of shoulder"
+          "system": "ICD-10",
+          "code": "S46009",
+          "display": "Unspecified injury of muscle(s) and tendon(s) of the rotator cuff of unspecified shoulder"
         }
       ],
       "direct_transition": "Encounter_For_Shoulder_Injury"
@@ -2717,9 +2717,9 @@
       "assign_to_attribute": "burn_injury",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "48333001",
-          "display": "Burn injury(morphologic abnormality)"
+          "system": "ICD-10",
+          "code": "T300",
+          "display": "Burn of unspecified body region, unspecified degree"
         }
       ],
       "direct_transition": "Death_Severe_Burn"

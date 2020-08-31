@@ -152,9 +152,9 @@
       "target_encounter": "Seizure_Encounter",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "128613002",
-          "display": "Seizure disorder"
+          "system": "ICD-10",
+          "code": "R569",
+          "display": "Unspecified convulsions"
         }
       ],
       "direct_transition": "Seizure_Encounter",
@@ -185,9 +185,9 @@
       "target_encounter": "Seizure_Encounter",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "703151001",
-          "display": "History of single seizure (situation)"
+          "system": "ICD-10",
+          "code": "8669",
+          "display": "ZPersonal history of other diseases of the nervous system and sense organs"
         }
       ],
       "direct_transition": "EEG_Test"
@@ -236,9 +236,9 @@
       "target_encounter": "Seizure_Encounter",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "84757009",
-          "display": "Epilepsy"
+          "system": "ICD-10",
+          "code": "G40909",
+          "display": "Epilepsy, unspecified, not intractable, without status epilepticus"
         }
       ],
       "distributed_transition": [

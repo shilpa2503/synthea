@@ -237,8 +237,8 @@
       "assign_to_attribute": "colorectal_adenoma",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "68496003",
+          "system": "ICD-10",
+          "code": "K635",
           "display": "Polyp of colon"
         }
       ],
@@ -562,8 +562,8 @@
       "assign_to_attribute": "recurrent_colorectal_adenoma",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "713197008",
+          "system": "ICD-10",
+          "code": "K621",
           "display": "Recurrent rectal polyp"
         }
       ],
@@ -615,9 +615,9 @@
       "target_encounter": "Symptom_Encounter",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "236077008",
-          "display": "Protracted diarrhea"
+          "system": "ICD-10",
+          "code": "R197",
+          "display": "Diarrhea, unspecified"
         }
       ],
       "direct_transition": "Colorectal_Cancer_Symptom_2"
@@ -627,9 +627,9 @@
       "target_encounter": "Symptom_Encounter",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "6072007",
-          "display": "Bleeding from anus"
+          "system": "ICD-10",
+          "code": "K625",
+          "display": "Hemorrhage of anus and rectum"
         }
       ],
       "direct_transition": "Symptom_Encounter"
@@ -839,9 +839,9 @@
       "assign_to_attribute": "colorectal_cancer",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "93761005",
-          "display": "Primary malignant neoplasm of colon"
+          "system": "ICD‑10",
+          "code": "C189",
+          "display": "Malignant neoplasm of colon, unspecified"
         }
       ],
       "distributed_transition": [
@@ -861,9 +861,9 @@
       "assign_to_attribute": "colorectal_cancer",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "109838007",
-          "display": "Overlapping malignant neoplasm of colon"
+          "system": "ICD-10",
+          "code": "C188",
+          "display": "Malignant neoplasm of overlapping sites of colon"
         }
       ],
       "distributed_transition": [
@@ -883,9 +883,9 @@
       "assign_to_attribute": "colorectal_cancer",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "363406005",
-          "display": "Malignant tumor of colon"
+          "system": "ICD-10",
+          "code": "C189",
+          "display": "Malignant neoplasm of colon, unspecified"
         }
       ],
       "distributed_transition": [
@@ -905,9 +905,9 @@
       "assign_to_attribute": "colorectal_cancer",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "94260004",
-          "display": "Secondary malignant neoplasm of colon"
+          "system": "ICD-10",
+          "code": "C785",
+          "display": "Secondary malignant neoplasm of large intestine and rectum"
         }
       ],
       "distributed_transition": [

@@ -147,6 +147,7 @@ public final class EncounterModule extends Module {
     Provider prov = person.getProvider(type, time);
     prov.incrementEncounters(type, year);
     encounter.provider = prov;
+    encounter.responses = Provider.getQuestionnaireResponse();
     // assign a clinician
     encounter.clinician = prov.chooseClinicianList(specialty, person);
     return encounter;

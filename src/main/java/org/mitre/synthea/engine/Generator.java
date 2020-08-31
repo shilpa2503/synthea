@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.FilenameFilter;
+import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.Collections;
@@ -234,6 +235,15 @@ public class Generator implements RandomNumberGenerator {
     Provider.loadProviders(location, options.clinicianSeed);
     // Initialize Payers
     Payer.loadPayers(location);
+    //FIT PROJECT CHANGES
+    // Initialize Questionnaire
+    try{
+      String fileName = Config.get("generate.providers.questionnaire.default_file", "false");
+      Provider.loadQuestionnaire(fileName);
+    }
+    catch(IOException e) {
+        System.out.println(e);
+    }
     // ensure modules load early
     List<String> coreModuleNames = getModuleNames(Module.getModules(path -> false));
     List<String> moduleNames = getModuleNames(Module.getModules(modulePredicate)); 

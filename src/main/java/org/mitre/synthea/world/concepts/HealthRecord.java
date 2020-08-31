@@ -27,6 +27,7 @@ import org.mitre.synthea.helpers.Utilities;
 import org.mitre.synthea.world.agents.Clinician;
 import org.mitre.synthea.world.agents.Person;
 import org.mitre.synthea.world.agents.Provider;
+import org.mitre.synthea.world.agents.Questionnaire;
 
 /**
  * HealthRecord contains all the coded entries in a person's health record. This
@@ -501,6 +502,7 @@ public class HealthRecord implements Serializable {
     public List<ImagingStudy> imagingStudies;
     public List<Device> devices;
     public List<Supply> supplies;
+    public List<Questionnaire> responses;
     public Claim claim; // for now assume 1 claim per encounter
     public Code reason;
     public Code discharge;
@@ -541,6 +543,7 @@ public class HealthRecord implements Serializable {
       imagingStudies = new ArrayList<ImagingStudy>();
       devices = new ArrayList<Device>();
       supplies = new ArrayList<Supply>();
+      responses = new ArrayList<Questionnaire>();
       this.claim = new Claim(this, person);
     }
 

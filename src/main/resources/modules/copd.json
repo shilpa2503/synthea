@@ -183,9 +183,9 @@
       "assign_to_attribute": "copd_variant",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "87433001",
-          "display": "Pulmonary emphysema (disorder)"
+          "system": "ICD-10",
+          "code": "J439",
+          "display": "Emphysema, unspecified"
         }
       ],
       "direct_transition": "Emphysema_Symptom1"
@@ -196,9 +196,9 @@
       "assign_to_attribute": "copd_variant",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "185086009",
-          "display": "Chronic obstructive bronchitis (disorder)"
+          "system": "ICD‑10",
+          "code": "J440",
+          "display": "Chronic obstructive pulmonary disease with (acute) lower respiratory infection"
         }
       ],
       "direct_transition": "Bronchitis_Symptom1"

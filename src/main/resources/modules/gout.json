@@ -76,9 +76,9 @@
       "target_encounter": "Gout_Diagnosis",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "90560007",
-          "display": "Gout"
+          "system": "ICD-10",
+          "code": "M109",
+          "display": "Gout, unspecified"
         }
       ],
       "direct_transition": "Gout_Symptom1"

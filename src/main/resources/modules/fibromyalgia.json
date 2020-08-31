@@ -93,9 +93,9 @@
       "target_encounter": "Fibromyalgia_Diagnosis",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "95417003",
-          "display": "Primary fibromyalgia syndrome"
+          "system": "ICD-10",
+          "code": "M797",
+          "display": "Fibromyalgia"
         }
       ],
       "direct_transition": "Fibromyalgia_Diagnosis"

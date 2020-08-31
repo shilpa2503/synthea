@@ -109,9 +109,9 @@
       "target_encounter": "Ear_Infection_Encounter",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": "65363002",
-          "display": "Otitis media"
+          "system": "ICD-10",
+          "code": "H6690",
+          "display": "Otitis media, unspecified, unspecified ear"
         }
       ],
       "direct_transition": "Ear_Infection_Encounter"

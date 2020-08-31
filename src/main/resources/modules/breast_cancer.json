@@ -296,9 +296,9 @@
       "type": "ConditionOnset",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": 254837009,
-          "display": "Malignant neoplasm of breast (disorder)"
+          "system": "ICD-10",
+          "code": "C50919",
+          "display": "Malignant neoplasm of unspecified site of unspecified female breast"
         }
       ],
       "direct_transition": "Time Before Initial Doctor Visit",
@@ -1321,9 +1321,9 @@
       "type": "ConditionOnset",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": 254837009,
-          "display": "Malignant neoplasm of breast (disorder)"
+          "system": "ICD-10",
+          "code": "C50919",
+          "display": "Malignant neoplasm of unspecified site of unspecified female breast"
         }
       ],
       "direct_transition": "Diagnose_TNM_Markers",

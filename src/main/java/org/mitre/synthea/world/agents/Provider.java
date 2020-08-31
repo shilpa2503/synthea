@@ -51,6 +51,8 @@ public class Provider implements QuadTreeElement, Serializable {
 
   // ArrayList of all providers imported
   private static ArrayList<Provider> providerList = new ArrayList<Provider>();
+  //FIT PROJECT CHANGES
+  private static ArrayList<Questionnaire> QuestionnaireList = new ArrayList<Questionnaire>();
   private static QuadTree providerMap = generateQuadTree();
   private static Set<String> statesLoaded = new HashSet<String>();
   private static int loaded = 0;
@@ -555,4 +557,37 @@ public class Provider implements QuadTreeElement, Serializable {
   public Point2D.Double getLonLat() {
     return coordinates;
   }
+  //FIT PROJECT CHANGES
+   /**
+   * Given a line of parsed CSV input, convert the data into a Questionnaire.
+   * @param line - read a csv line to a Questionnaire's attributes
+   * @return A Questionnaire.
+   */
+  private static Questionnaire csvLineToQuestionnaire(Map<String,String> line) {
+    Questionnaire q = new Questionnaire();
+    // using remove instead of get here so that we can iterate over the remaining keys later
+    q.id = line.remove("id");
+    q.category = line.remove("category");
+    q.subCategory = line.remove("Subcategory");
+    q.items = line.remove("Items");
+    q.scales = line.remove("Scales");
+    return q;
+  }
+  
+  public static void loadQuestionnaire(String filename)
+      throws IOException {
+    String resource = Utilities.readResource(filename);
+    Iterator<? extends Map<String,String>> csv = SimpleCSV.parseLineByLine(resource);
+    
+    while (csv.hasNext()) {
+      Map<String,String> row = csv.next();
+      Questionnaire parsed = csvLineToQuestionnaire(row);
+      QuestionnaireList.add(parsed);
+    }
+  }
+
+  public static ArrayList<Questionnaire> getQuestionnaireResponse() {
+    return QuestionnaireList;
+  }
+
 }

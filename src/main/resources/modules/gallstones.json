@@ -325,9 +325,9 @@
       "target_encounter": "Cholecystitis_Encounter",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": 65275009,
-          "display": "Acute Cholecystitis"
+          "system": "ICD-10",
+          "code": "K810",
+          "display": "Acute cholecystitis"
         }
       ],
       "distributed_transition": [
@@ -350,9 +350,9 @@
       "target_encounter": "Cholecystitis_Encounter",
       "codes": [
         {
-          "system": "SNOMED-CT",
-          "code": 235919008,
-          "display": "Cholelithiasis"
+          "system": "ICD-10",
+          "code": "K8010",
+          "display": "Calculus of gallbladder with chronic cholecystitis without obstruction"
         }
       ],
       "remarks": [
