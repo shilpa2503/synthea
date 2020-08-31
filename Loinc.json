@@ -1,0 +1,695 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "Loinc",
+  "meta": {
+    "lastUpdated": "2020-08-29T11:53:00+11:00",
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": ""
+  },
+  "url": "https://loinc.org/",
+  "identifier": {
+    "system": "http://loinc.org",
+    "value": "urn:oid:2.16.840.1.113883.6.3"
+  },
+  "version": "2.48",
+  "name": "Loinc",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "FITLab",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.org/fhir"
+        }
+      ]
+    }
+  ],
+  "description": "This value set includes sample Loinc codes.",
+  "copyright": "This is an example set.",
+  "caseSensitive": true,
+  "valueSet": "https://loinc.org/downloads/",
+  "content": "complete",
+  "concept": [
+    {
+        "code": "10001-6",
+        "display": "R wave duration.lead I"
+    },
+	{
+        "code": "10002-4",
+        "display": "R wave duration.lead II"
+    },
+	{
+        "code": "10003-2",
+        "display": "R wave duration.lead III"
+    },
+	{
+        "code": "10004-0",
+        "display": "R wave duration.lead V1"
+    },
+	{
+        "code": "10005-7",
+        "display": "R wave duration.lead V2"
+    },
+	{
+        "code": "10006-5",
+        "display": "R wave duration.lead V3"
+    },
+	{
+        "code": "10007-3",
+        "display": "R wave duration.lead V4"
+    },
+	{
+        "code": "10008-1",
+        "display": "R wave duration.lead V5"
+    },
+	{
+        "code": "1000-9",
+        "display": "DBG Ab"
+    },
+	{
+        "code": "10009-9",
+        "display": "R wave duration.lead V6"
+    },
+	{
+        "code": "10010-7",
+        "display": "R' wave amplitude.lead AVF"
+    },
+	{
+        "code": "10011-5",
+        "display": "R' wave amplitude.lead AVL"
+    },
+	{
+        "code": "10012-3",
+        "display": "R' wave amplitude.lead AVR"
+    },
+	{
+        "code": "10013-1",
+        "display": "R' wave amplitude.lead I"
+    },
+	{
+        "code": "10014-9",
+        "display": "R' wave amplitude.lead II"
+    },
+	{
+        "code": "10015-6",
+        "display": "R' wave amplitude.lead III"
+    },
+	{
+        "code": "10016-4",
+        "display": "R' wave amplitude.lead V1"
+    },
+	{
+        "code": "1001-7",
+        "display": "DBG Ab"
+    },
+	{
+        "code": "10017-2",
+        "display": "R' wave amplitude.lead V2"
+    },
+	{
+        "code": "10018-0",
+        "display": "R' wave amplitude.lead V3"
+    },
+	{
+        "code": "10019-8",
+        "display": "R' wave amplitude.lead V4"
+    },
+	{
+        "code": "10020-6",
+        "display": "R' wave amplitude.lead V5"
+    },
+	{
+        "code": "10021-4",
+        "display": "R' wave amplitude.lead V6"
+    },
+	{
+        "code": "10022-2",
+        "display": "R' wave duration.lead AVF"
+    },
+	{
+        "code": "10023-0",
+        "display": "R' wave duration.lead AVL"
+    },
+	{
+        "code": "10024-8",
+        "display": "R' wave duration.lead AVR"
+    },
+	{
+        "code": "1002-5",
+        "display": "DBG Ab"
+    },
+	{
+        "code": "10025-5",
+        "display": "R' wave duration.lead I"
+    },
+	{
+        "code": "10026-3",
+        "display": "R' wave duration.lead II"
+    },
+	{
+        "code": "10027-1",
+        "display": "R' wave duration.lead III"
+    },
+	{
+        "code": "10028-9",
+        "display": "R' wave duration.lead V1"
+    },
+	{
+        "code": "10029-7",
+        "display": "R' wave duration.lead V2"
+    },
+	{
+        "code": "10030-5",
+        "display": "R' wave duration.lead V3"
+    },
+	{
+        "code": "10031-3",
+        "display": "R' wave duration.lead V4"
+    },
+	{
+        "code": "10032-1",
+        "display": "R' wave duration.lead V5"
+    },
+	{
+	
+        "code": "1003-3",
+        "display": "Indirect antiglobulin test complement specific reagent"
+    },
+	{
+        "code": "10033-9",
+        "display": "R' wave duration.lead V6"
+    },
+	{
+        "code": "10034-7",
+        "display": "S wave amplitude.lead AVF"
+    },
+	{
+        "code": "10035-4",
+        "display": "S wave amplitude.lead AVL"
+    },
+	{
+        "code": "10036-2",
+        "display": "S wave amplitude.lead AVR"
+    },
+	{
+        "code": "10037-0",
+        "display": "S wave amplitude.lead I"
+    },
+	{
+        "code": "10038-8",
+        "display": "S wave amplitude.lead II"
+    },
+	{
+        "code": "10039-6",
+        "display": "S wave amplitude.lead III"
+    },
+	{
+        "code": "10040-4",
+        "display": "S wave amplitude.lead V1"
+    },
+	{
+        "code": "1004-1",
+        "display": "Direct antiglobulin test.complement specific reagent"
+    },
+	{
+        "code": "10041-2",
+        "display": "S wave amplitude.lead V2"
+    },
+	{
+        "code": "10042-0",
+        "display": "S wave amplitude.lead V3"
+    },
+	{
+        "code": "10043-8",
+        "display": "S wave amplitude.lead V4"
+    },
+	{
+        "code": "10044-6",
+        "display": "S wave amplitude.lead V5"
+    },
+	{
+        "code": "10045-3",
+        "display": "S wave amplitude.lead V6"
+    },
+	{
+        "code": "10046-1",
+        "display": "S wave duration.lead AVF"
+    },
+	{
+        "code": "10047-9",
+        "display": "S wave duration.lead AVL"
+    },
+	{
+        "code": "10048-7",
+        "display": "S wave duration.lead AVR"
+    },
+	{
+        "code": "10049-5",
+        "display": "S wave duration.lead I"
+    },
+	{
+        "code": "10050-3",
+        "display": "S wave duration.lead II"
+    },
+	{
+        "code": "10051-1",
+        "display": "S wave duration.lead III"
+    },
+	{
+        "code": "10052-9",
+        "display": "S wave duration.lead V1"
+    },
+	{
+        "code": "10053-7",
+        "display": "S wave duration.lead V2"
+    },
+	{
+        "code": "10054-5",
+        "display": "S wave duration.lead V3"
+    },
+	{
+        "code": "10055-2",
+        "display": "S wave duration.lead V4"
+    },
+	{
+        "code": "10056-0",
+        "display": "S wave duration.lead V5"
+    },
+	{
+        "code": "10057-8",
+        "display": "S wave duration.lead V6"
+    },
+	{
+        "code": "1005-8",
+        "display": "Indirect antiglobulin test.IgG specific reagent"
+    },
+	{
+        "code": "10058-6",
+        "display": "S' wave amplitude.lead AVF"
+    },
+	{
+        "code": "10059-4",
+        "display": "S' wave amplitude.lead AVL"
+    },
+	{
+        "code": "10060-2",
+        "display": "S' wave amplitude.lead AVR"
+    },
+	{
+        "code": "10061-0",
+        "display": "S' wave amplitude.lead I"
+    },
+	{
+        "code": "10062-8",
+        "display": "S' wave amplitude.lead II"
+    },
+	{
+        "code": "10063-6",
+        "display": "S' wave amplitude.lead III"
+    },
+	{
+        "code": "10064-4",
+        "display": "S' wave amplitude.lead V1"
+    },
+	{
+        "code": "10065-1",
+        "display": "S' wave amplitude.lead V2"
+    },
+	{
+        "code": "1006-6",
+        "display": "Direct antiglobulin test.IgG specific reagent"
+    },
+	{
+        "code": "10066-9",
+        "display": "S' wave amplitude.lead V3"
+    },
+	{
+        "code": "10067-7",
+        "display": "S' wave amplitude.lead V4"
+    },
+	{
+        "code": "10068-5",
+        "display": "S' wave amplitude.lead V5"
+    },
+	{
+        "code": "10069-3",
+        "display": "S' wave amplitude.lead V6"
+    },
+	{
+        "code": "10070-1",
+        "display": "S' wave duration.lead AVF"
+    },
+	{
+        "code": "10071-9",
+        "display": "S' wave duration.lead AVL"
+    },
+	{
+        "code": "10072-7",
+        "display": "S' wave duration.lead AVR"
+    },
+	{
+        "code": "10073-5",
+        "display": "S' wave duration.lead I"
+    },
+	{
+        "code": "1007-4",
+        "display": "Direct antiglobulin test.poly specific reagent"
+    },
+	{
+        "code": "10074-3",
+        "display": "S' wave duration.lead II"
+    },
+	{
+        "code": "10075-0",
+        "display": "S' wave duration.lead III"
+    },
+	{
+        "code": "10076-8",
+        "display": "S' wave duration.lead V1"
+    },
+	{
+        "code": "10077-6",
+        "display": "S' wave duration.lead V2"
+    },
+	{
+        "code": "10078-4",
+        "display": "S' wave duration.lead V3"
+    },
+	{
+        "code": "10079-2",
+        "display": "S' wave duration.lead V4"
+    },
+	{
+        "code": "100-8",
+        "display": "Cefoperazone"
+    },
+	{
+        "code": "10080-0",
+        "display": "S' wave duration.lead V5"
+    },
+	{
+        "code": "10081-8",
+        "display": "S' wave duration.lead V6"
+    },
+	{
+        "code": "1008-2",
+        "display": "Indirect antiglobulin test.poly specific reagent"
+    },
+	{
+        "code": "10082-6",
+        "display": "ST initial amplitude 6 ms.lead AVF"
+    },
+	{
+        "code": "10083-4",
+        "display": "ST initial amplitude 6 ms.lead AVL"
+    },
+	{
+        "code": "10084-2",
+        "display": "ST initial amplitude 6 ms.lead AVR"
+    },
+	{
+        "code": "10085-9",
+        "display": "ST initial amplitude 6 ms.lead I"
+    },
+	{
+        "code": "10086-7",
+        "display": "ST initial amplitude 6 ms.lead II"
+    },
+	{
+        "code": "10087-5",
+        "display": "ST initial amplitude 6 ms.lead III"
+    },
+	{
+        "code": "10088-3",
+        "display": "ST initial amplitude 6 ms.lead V1"
+    },
+	{
+        "code": "10089-1",
+        "display": "ST initial amplitude 6 ms.lead V2"
+    },
+	{
+        "code": "1009-0",
+        "display": "Direct antiglobulin test.poly specific reagent"
+    },
+	{
+        "code": "10090-9",
+        "display": "ST initial amplitude 6 ms.lead V3"
+    },
+	{
+        "code": "10091-7",
+        "display": "ST initial amplitude 6 ms.lead V4"
+    },
+	{
+        "code": "10092-5",
+        "display": "ST initial amplitude 6 ms.lead V5"
+    },
+	{
+        "code": "10093-3",
+        "display": "ST initial amplitude 6 ms.lead V6"
+    },
+	{
+        "code": "10094-1",
+        "display": "ST slope.lead AVF"
+    },
+	{
+        "code": "10095-8",
+        "display": "ST slope.lead AVL"
+    },
+	{
+        "code": "10096-6",
+        "display": "ST slope.lead AVR"
+    },
+	{
+        "code": "10097-4",
+        "display": "ST slope.lead I"
+    },
+	{
+        "code": "10098-2",
+        "display": "ST slope.lead II"
+    },
+	{
+        "code": "10099-0",
+        "display": "ST slope.lead III"
+    },
+	{
+        "code": "10100-6",
+        "display": "ST slope.lead V1"
+    },
+	{
+        "code": "10101-4",
+        "display": "ST slope.lead V2"
+    },
+	{
+        "code": "10102-2",
+        "display": "ST slope.lead V3"
+    },
+	{
+        "code": "10103-0",
+        "display": "ST slope.lead V4"
+    },
+	{
+        "code": "10104-8",
+        "display": "ST slope.lead V5"
+    },
+	{
+        "code": "10105-5",
+        "display": "ST slope.lead V6"
+    },
+	{
+        "code": "10106-3",
+        "display": "ST wave displacement.end.lead AVF"
+    },
+	{
+        "code": "10107-1",
+        "display": "ST wave displacement.end.lead AVL"
+    },
+	{
+        "code": "1010-8",
+        "display": "E super little w Ab"
+    },
+	{
+        "code": "10108-9",
+        "display": "ST wave displacement.end.lead AVR"
+    },
+	{
+        "code": "10109-7",
+        "display": "ST wave displacement.end.lead I"
+    },
+	{
+        "code": "10110-5",
+        "display": "ST wave displacement.end.lead II"
+    },
+	{
+        "code": "10111-3",
+        "display": "ST wave displacement.end.lead III"
+    },
+	{
+        "code": "10112-1",
+        "display": "ST wave displacement.end.lead V1"
+    },
+	{
+        "code": "10113-9",
+        "display": "ST wave displacement.end.lead V2"
+    },
+	{
+        "code": "10114-7",
+        "display": "ST wave displacement.end.lead V3"
+    },
+	{
+        "code": "10115-4",
+        "display": "ST wave displacement.end.lead V4"
+    },
+	{
+        "code": "1011-6",
+        "display": "E super little w Ab"
+    },
+	{
+        "code": "10116-2",
+        "display": "ST wave displacement.end.lead V5"
+    },
+	{
+        "code": "10117-0",
+        "display": "ST wave displacement.end.lead V6"
+    },
+	{
+        "code": "10118-8",
+        "display": "ST wave displacement.mid.lead AVF"
+    },
+	{
+        "code": "10119-6",
+        "display": "ST wave displacement.mid.lead AVL"
+    },
+	{
+        "code": "10120-4",
+        "display": "ST wave displacement.mid.lead AVR"
+    },
+	{
+        "code": "10121-2",
+        "display": "ST wave displacement.mid.lead I"
+    },
+	{
+        "code": "10122-0",
+        "display": "ST wave displacement.mid.lead II"
+    },
+	{
+        "code": "10123-8",
+        "display": "ST wave displacement.mid.lead III"
+    },
+	{
+        "code": "1012-4",
+        "display": "E super little w Ab"
+    },
+	{
+        "code": "10124-6",
+        "display": "ST wave displacement.mid.lead V1"
+    },
+	{
+        "code": "10125-3",
+        "display": "ST wave displacement.mid.lead V2"
+    },
+	{
+        "code": "10126-1",
+        "display": "ST wave displacement.mid.lead V3"
+    },
+	{
+        "code": "10127-9",
+        "display": "ST wave displacement.mid.lead V4"
+    },
+	{
+        "code": "10128-7",
+        "display": "ST wave displacement.mid.lead V5"
+    },
+	{
+        "code": "10129-5",
+        "display": "ST wave displacement.mid.lead V6"
+    },
+	{
+        "code": "10130-3",
+        "display": "T' wave amplitude.lead AVF"
+    },
+	{
+        "code": "10131-1",
+        "display": "T' wave amplitude.lead AVL"
+    },
+	{
+        "code": "1013-2",
+        "display": "E super little w Ag"
+    },
+	{
+        "code": "10132-9",
+        "display": "T' wave amplitude.lead AVR"
+    },
+	{
+        "code": "10133-7",
+        "display": "T' wave amplitude.lead I"
+    },
+	{
+        "code": "10134-5",
+        "display": "T' wave amplitude.lead II"
+    },
+	{
+        "code": "10135-2",
+        "display": "T' wave amplitude.lead III"
+    },
+	{
+        "code": "10136-0",
+        "display": "T' wave amplitude.lead V1"
+    },
+	{
+        "code": "10137-8",
+        "display": "T' wave amplitude.lead V2"
+    },
+	{
+        "code": "10138-6",
+        "display": "T' wave amplitude.lead V3"
+    },
+	{
+        "code": "10139-4",
+        "display": "T' wave amplitude.lead V4"
+    },
+	{
+        "code": "1014-0",
+        "display": "E super little w Ag"
+    },
+	{
+        "code": "10140-2",
+        "display": "T' wave amplitude.lead V5"
+    },
+	{
+        "code": "10141-0",
+        "display": "T' wave amplitude.lead V6"
+    },
+	{
+        "code": "10142-8",
+        "display": "T wave amplitude.lead AVF"
+    },
+	{
+        "code": "10143-6",
+        "display": "T wave amplitude.lead AVL"
+    },
+	{
+        "code": "10144-4",
+        "display": "T wave amplitude.lead AVR"
+    },
+	{
+        "code": "10145-1",
+        "display": "T wave amplitude.lead I"
+    },
+	{
+        "code": "10146-9",
+        "display": "T wave amplitude.lead II"
+    },
+	{
+        "code": "10147-7",
+        "display": "T wave amplitude.lead III"
+    }
+	
+  ]
+}
